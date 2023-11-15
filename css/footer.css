@@ -1,0 +1,16 @@
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 170px ;
+    height: 100px;
+    background: black;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+
+}

@@ -1,0 +1,51 @@
+
+
+section{
+    margin-top: 75px;
+}
+
+
+.brend-list-1{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.brend-list-1{
+    gap: 0 15px;
+    
+}
+
+
+.brend-box-list-1{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+    gap: 0 20px;
+    padding: 46px 29px 45px 40px;
+    border-radius: 22px;
+    background: #F6F6F6;
+}
+
+.brend-box-list-1 h3{
+    color: #1E1D1D;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.brend-box-list-1 p{
+    margin-top: 5px;
+    color: #8B8E99;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+@media (max-width:1000px){
+    .brend-list-1 {
+        gap: 20px 0;
+        grid-template-columns:1fr;
+    }
+}
